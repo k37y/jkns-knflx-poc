@@ -611,7 +611,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-jkns-knflx-poc-slave-base
   workspaces:
   - name: git-auth
     secret:
